@@ -18,8 +18,8 @@ public class MainPage {
     public static By bunTab = By.cssSelector(".tab_tab__1SPyG:nth-child(1)");
     public static By orderButton = By.xpath(".//button[text()='Оформить заказ']");
 
-    private By kabinetButton = By.xpath(".//a[@href='/account']");
-    private By loginButton = By.xpath(".//button[@class='button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg']");
+    private final By kabinetButton = By.xpath(".//a[@href='/account']");
+    private final By loginButton = By.xpath(".//button[@class='button_button__33qZ0 button_button_type_primary__1O7Bx button_button_size_large__G21Vg']");
 
     @Step("Click filling button")
     public void clickKabinetButton() {

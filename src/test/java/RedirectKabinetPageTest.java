@@ -12,8 +12,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import page.LoginPage;
 import page.MainPage;
 
-import static page.MainPage.orderButton;
-
 public class RedirectKabinetPageTest {
 
     @Rule

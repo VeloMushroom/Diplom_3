@@ -13,8 +13,6 @@ import page.KabinetPage;
 import page.LoginPage;
 import page.MainPage;
 
-import static page.MainPage.orderButton;
-
 public class LogOutTest {
 
     @Rule
